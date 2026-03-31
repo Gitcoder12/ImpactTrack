@@ -1,49 +1,78 @@
-# 📊 ImpactTrack
+# ImpactTrack
 
-ImpactTrack is a platform for transparent giving.
-
-Donate to verified causes and track exactly how your money is used.
-
----
-
-## 🚀 What it does
-
-* Donate to verified causes 💸
-* Track fund usage 📊
-* View real impact updates 📸
+ImpactTrack is a transparency layer for charitable giving.
+It enables tracking of donations, fund allocation, and real-world impact through structured updates.
 
 ---
 
-## 🧠 Idea
+## Overview
 
-Giving should be transparent.
-
-ImpactTrack helps users understand where their money goes and what impact it creates.
+The platform connects donors with verified causes and provides visibility into how funds are used over time.
 
 ---
 
-## 🔧 Features (MVP)
+## Core Features
 
-* Verified causes
-* Donation tracking
-* Impact updates
-* Simple interface
+* Cause listing with basic verification
+* Donation tracking per user and per project
+* Impact updates (text, images, progress)
+* Simple dashboard for activity and history
 
 ---
 
-## 🛠️ Tech (planned)
+## MVP Scope
+
+* Static or seeded causes
+* Simulated or external payment flow
+* Manual impact updates
+* Basic user profiles
+
+---
+
+## Architecture (planned)
+
+Frontend:
 
 * React / Next.js
-* Firebase / Supabase
+
+Backend:
+
+* Firebase (Auth, Firestore) or Supabase
+
+Data:
+
+* Users
+* Causes
+* Donations
+* Updates
 
 ---
 
-## 📌 Status
+## Key Concepts
 
-Early-stage project 🚧
+* **Cause**: A project or initiative requesting support
+* **Donation**: A transaction linked to a user and cause
+* **Update**: Proof of progress or fund usage
+* **Tracking**: Mapping donations to visible outcomes
 
 ---
 
-## 📊
+## Future Enhancements
 
-Track donations. See real impact.
+* Payment integration (Stripe / Razorpay)
+* Verification workflows (KYC / admin approval)
+* Real-time updates and notifications
+* Public impact timelines
+* Analytics and reporting
+
+---
+
+## Status
+
+Early-stage MVP in development
+
+---
+
+## Goal
+
+Provide a simple, extensible foundation for transparent donation tracking.
