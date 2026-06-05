@@ -1,0 +1,37 @@
+[
+  {
+    "id": "C001",
+    "title": "Clean Water for Rural Telangana",
+    "category": "infrastructure",
+    "goal_inr": 500000,
+    "raised_inr": 312000,
+    "verified": true,
+    "location": "Nalgonda, Telangana",
+    "updates": [
+      { "date": "2025-04-10", "text": "Phase 1 pipe installation complete. 3 villages connected." },
+      { "date": "2025-05-18", "text": "Phase 2 funding secured. Work begins June." }
+    ]
+  },
+  {
+    "id": "C002",
+    "title": "School Library — Nizamabad District",
+    "category": "education",
+    "goal_inr": 150000,
+    "raised_inr": 148500,
+    "verified": true,
+    "location": "Nizamabad, Telangana",
+    "updates": [
+      { "date": "2025-05-01", "text": "Books procured. Shelving in progress." }
+    ]
+  },
+  {
+    "id": "C003",
+    "title": "Solar Panels for Primary Health Centre",
+    "category": "healthcare",
+    "goal_inr": 250000,
+    "raised_inr": 89000,
+    "verified": false,
+    "location": "Adilabad, Telangana",
+    "updates": []
+  }
+]
