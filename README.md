@@ -46,3 +46,24 @@ The sample records are demonstration data, not proof that a real organization or
 ## License
 
 See [LICENSE](LICENSE).
+
+---
+
+## Project handbook
+
+- [Activity log](ACTIVITY_LOG.md) · [Feature upgrade plan](FEATURE_UPGRADE_PLAN.md)
+- [Company and team fit](COMPANY_FIT.md) · [README explanation draft](README_ADDENDUM_DRAFT.md)
+- [README quality checklist](README_QUALITY_CHECKLIST.md)
+- [Contributing](CONTRIBUTING.md) · [Agent instructions](AGENTS.md) · [Agent skills](SKILLS.md)
+
+## Understanding the project
+
+### In plain language
+
+A prototype data model for showing how charitable causes, funding targets, donations and progress updates could be recorded transparently.
+
+### Technical and research view
+
+The repository contains example cause records and a draft data schema. It does not take payments or verify real-world funding.
+
+See [FEATURE_UPGRADE_PLAN.md](FEATURE_UPGRADE_PLAN.md), [ACTIVITY_LOG.md](ACTIVITY_LOG.md), [COMPANY_FIT.md](COMPANY_FIT.md) and [CONTRIBUTING.md](CONTRIBUTING.md) for the roadmap and collaboration workflow.
