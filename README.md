@@ -1,69 +1,91 @@
 # ImpactTrack
 
-**A data-model prototype for transparent cause and donation tracking.**
-
-[![License](https://img.shields.io/badge/license-see%20LICENSE-lightgrey)](LICENSE)
-
-ImpactTrack explores how causes, funding targets, donations, and progress updates can be represented in a structured and reviewable format.
-
-## Current Contents
-
-- `causes.json` — illustrative cause records, funding targets, and progress notes.
-- `schema.md` — draft definitions for causes, updates, and planned donation records.
-
-## Core Concepts
-
-- **Cause:** A project with a category, location, funding goal, and verification state.
-- **Donation:** A transaction linked to a cause and, optionally, a donor.
-- **Update:** A dated progress statement associated with a cause.
-- **Verification:** A review state that should be supported by evidence and an accountable reviewer.
-
-## Quick Start
-
-No application, payment gateway, or database is included yet. Inspect the sample data:
-
-```bash
-git clone https://github.com/Gitcoder12/ImpactTrack.git
-cd ImpactTrack
-python -m json.tool causes.json
-```
-
-## Tech Stack
-
-JSON · Markdown schema documentation
-
-## Roadmap
-
-- Define an auditable cause-verification workflow.
-- Add immutable donation receipts and reconciliation.
-- Add access controls and moderation.
-- Integrate a payment provider only after the data and compliance requirements are defined.
-
-## Safety and Trust
-
-The sample records are demonstration data, not proof that a real organization or cause has been verified. A future deployment would need payment-provider compliance, privacy controls, fraud handling, and transparent verification evidence. Do not use this repository to collect real donations.
-
-## License
-
-See [LICENSE](LICENSE).
+ImpactTrack is a transparency layer for charitable giving.
+It enables tracking of donations, fund allocation, and real-world impact through structured updates.
 
 ---
 
-## Project handbook
+## Overview
 
-- [Activity log](ACTIVITY_LOG.md) · [Feature upgrade plan](FEATURE_UPGRADE_PLAN.md)
-- [Company and team fit](COMPANY_FIT.md) · [README explanation draft](README_ADDENDUM_DRAFT.md)
-- [README quality checklist](README_QUALITY_CHECKLIST.md)
-- [Contributing](CONTRIBUTING.md) · [Agent instructions](AGENTS.md) · [Agent skills](SKILLS.md)
+The platform connects donors with verified causes and provides visibility into how funds are used over time.
 
-## Understanding the project
+---
 
-### In plain language
+## Core Features
 
-A prototype data model for showing how charitable causes, funding targets, donations and progress updates could be recorded transparently.
+* Cause listing with basic verification
+* Donation tracking per user and per project
+* Impact updates (text, images, progress)
+* Simple dashboard for activity and history
 
-### Technical and research view
+---
 
-The repository contains example cause records and a draft data schema. It does not take payments or verify real-world funding.
+## MVP Scope
 
-See [FEATURE_UPGRADE_PLAN.md](FEATURE_UPGRADE_PLAN.md), [ACTIVITY_LOG.md](ACTIVITY_LOG.md), [COMPANY_FIT.md](COMPANY_FIT.md) and [CONTRIBUTING.md](CONTRIBUTING.md) for the roadmap and collaboration workflow.
+* Static or seeded causes
+* Simulated or external payment flow
+* Manual impact updates
+* Basic user profiles
+
+---
+
+## Architecture (planned)
+
+Frontend:
+
+* React / Next.js
+
+Backend:
+
+* Firebase (Auth, Firestore) or Supabase
+
+Data:
+
+* Users
+* Causes
+* Donations
+* Updates
+
+---
+
+## Key Concepts
+
+* **Cause**: A project or initiative requesting support
+* **Donation**: A transaction linked to a user and cause
+* **Update**: Proof of progress or fund usage
+* **Tracking**: Mapping donations to visible outcomes
+
+---
+
+## Future Enhancements
+
+* Payment integration (Stripe / Razorpay)
+* Verification workflows (KYC / admin approval)
+* Real-time updates and notifications
+* Public impact timelines
+* Analytics and reporting
+
+---
+
+## Status
+
+Early-stage MVP in development
+
+---
+
+## Goal
+
+Provide a simple, extensible foundation for transparent donation tracking.
+
+
+---
+
+## AI-maintained project notes (secondary — 2026-11-13)
+
+This section supplements the maintainer-authored README above. The original text has been restored verbatim from Git-history baseline `3a0533b97a7843002a3f1f87c9ce8a6183a25835`; this addendum does not replace or certify the original claims.
+
+- The source tree, runtime data and tests are the implementation source of truth. Do not treat roadmap items, draft PRs or AI-generated descriptions as shipped features.
+- Preserve existing maintainer-provided data. Never replace real data with synthetic or placeholder records. Any test fixture must be clearly labelled and isolated from runtime data.
+- Mark unverified sources, IDs, records, metrics and external claims as unknown/unverified rather than guessing.
+- Verify installation, execution, tests and public claims against the exact current commit before presenting this project to recruiters, researchers or professors.
+- See [MODEL_AUDIT_ROUTER.md](MODEL_AUDIT_ROUTER.md) for the independent multi-model review and merge gate.
