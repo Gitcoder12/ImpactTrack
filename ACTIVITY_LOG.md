@@ -17,3 +17,12 @@ The current repository contains illustrative causes.json records and a draft sch
 | YYYY-MM-DD | name | cause/donation/update | source, unit, date | exact test command | pass / fail / not run | provenance and limitations |
 
 Distinguish illustrative targets, pledges, actual donations and independently verified expenditure. Never invent beneficiaries or transaction records.
+
+## Portfolio documentation rollout — 2026-11-13
+
+- Documentation PR: https://github.com/Gitcoder12/ImpactTrack/pull/1
+- Added project-specific activity log, prioritised feature plan, company-fit map, beginner/technical README guide and README quality checklist.
+- Added or preserved contribution instructions and bounded agent/skills guidance as shown in the PR diff.
+- Added a two-level explanation to the README: a plain-language overview and a technical/research view. Existing setup instructions and core feature descriptions were retained.
+- Validation: documentation/source review only. No application runtime test or deployment is claimed by this documentation PR.
+- Status: draft PR, not merged.
