@@ -89,3 +89,21 @@ This section supplements the maintainer-authored README above. The original text
 - Mark unverified sources, IDs, records, metrics and external claims as unknown/unverified rather than guessing.
 - Verify installation, execution, tests and public claims against the exact current commit before presenting this project to recruiters, researchers or professors.
 - See [MODEL_AUDIT_ROUTER.md](MODEL_AUDIT_ROUTER.md) for the independent multi-model review and merge gate.
+
+---
+
+## Engineering Audit & Handover — 2026-11-17
+
+**Review scope:** default branch `main`; static inspection of `causes.json`. Runtime tests were not executed.
+
+### Confirmed findings
+- The inspected file contains three cause records with funding goals, raised amounts, and progress updates.
+- Two records set `verified: true`, but the inspected JSON does not include verification evidence, verifier identity, verification date, or source links.
+- The figures and progress updates therefore cannot be independently substantiated from this file alone. Do not present them as verified real donations or impact.
+
+### Next actions
+1. Label current records as demo/sample data unless independently substantiated.
+2. Add a verifiable audit trail: evidence URLs/documents, verifier, timestamp, and verification status.
+3. Separate payment-provider transaction records from manually entered progress; add tests for amount validation and status transitions.
+
+**Verification status:** data-file inspection only; payment flow, persistence, and tests remain unverified.
