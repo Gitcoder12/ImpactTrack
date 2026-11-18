@@ -107,3 +107,10 @@ This section supplements the maintainer-authored README above. The original text
 3. Separate payment-provider transaction records from manually entered progress; add tests for amount validation and status transitions.
 
 **Verification status:** data-file inspection only; payment flow, persistence, and tests remain unverified.
+
+---
+
+## Examples Used
+- Tracking donations to a community water project
+- Following fund allocation for disaster relief
+- Recording evidence-backed project progress
