@@ -107,3 +107,22 @@ This section supplements the maintainer-authored README above. The original text
 3. Separate payment-provider transaction records from manually entered progress; add tests for amount validation and status transitions.
 
 **Verification status:** data-file inspection only; payment flow, persistence, and tests remain unverified.
+
+
+---
+
+## Branch Activity & Development History
+
+**Audit date:** 2026-11-18 · **Comparison base:** `main`
+
+| Branch | Difference from `main` | Observed work / changed paths |
+|---|---:|---|
+| `docs/portfolio-operating-kit-2026-11-13` | 5 ahead / 3 behind | Activity log, agent guidance, worklog, company-fit notes, feature plan and skills; README has additions and removals |
+| `docs/project-status-audit20261116` | Comparison unavailable | GitHub returned 404 for the comparison; recheck branch existence |
+
+### Open pull requests observed during this audit
+
+- [PR #2 — project status snapshot](https://github.com/Gitcoder12/ImpactTrack/pull/2)
+- [PR #1 — project handbook and data integrity roadmap](https://github.com/Gitcoder12/ImpactTrack/pull/1)
+
+**Review note:** The portfolio branch includes README removals as well as additions. Inspect its diff before merging. No branches have been merged or deleted by this documentation update.
