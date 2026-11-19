@@ -114,3 +114,27 @@ This section supplements the maintainer-authored README above. The original text
 - Tracking donations to a community water project
 - Following fund allocation for disaster relief
 - Recording evidence-backed project progress
+
+
+---
+
+## Comparison with Existing Open-Source Projects
+
+ImpactTrack is described as a transparency layer for charitable giving: causes, donations, fund allocation and progress updates. These projects are adjacent references, not proof that ImpactTrack already provides equivalent payment or verification capabilities.
+
+| Project | Established focus | Relationship to ImpactTrack |
+|---|---|---|
+| [Open Collective](https://github.com/opencollective/opencollective) | Open-source collective funding, contributions and transparent financial activity | A mature reference for contribution records and public financial transparency; ImpactTrack's stated emphasis is linking individual donations to cause-level progress evidence. |
+| [CiviCRM](https://github.com/civicrm/civicrm-core) | Open-source constituent relationship management, fundraising and contribution management | Much broader fundraising/CRM system; ImpactTrack aims for a narrower donor-facing impact timeline. |
+| [Mautic](https://github.com/mautic/mautic) | Open-source marketing automation and contact engagement | Adjacent donor-engagement tooling, not a direct donation-audit or impact-verification equivalent. |
+
+### Where ImpactTrack is different
+- **Donation-to-outcome narrative:** the product concept links a contribution to subsequent, dated project updates rather than stopping at a payment receipt.
+- **Cause-level progress view:** the intended interface makes allocation and progress understandable to donors in one place.
+- **Small, focused experience:** the documented MVP is narrower than a full CRM or fundraising suite.
+
+### Where established projects are stronger
+Open Collective and CiviCRM have much more mature financial workflows and ecosystems. ImpactTrack's README describes an early-stage MVP with seeded/demo causes and a simulated or external payment flow; it must not claim real donation processing, verified fund allocation or independently confirmed impact until those integrations and audit trails exist.
+
+### Evidence and trust requirements
+For every real cause, publish the verification method, verifier, date, source evidence, transaction reference where appropriate, and correction history. Clearly distinguish payment-provider confirmation from manually entered progress updates. This comparison is based on documented scope, not a security, payment-compliance or feature-parity audit.
