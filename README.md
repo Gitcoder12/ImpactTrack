@@ -3,6 +3,13 @@
 ImpactTrack is a transparency layer for charitable giving.
 It enables tracking of donations, fund allocation, and real-world impact through structured updates.
 
+
+## Run status
+
+**No browser app is currently available to launch from this repository.** The current README describes an early-stage donation-tracking MVP and a planned React/Next.js plus Firebase/Supabase architecture, but does not identify an implemented frontend, backend server, or local browser URL. Do not try to open a guessed `index.html` file.
+
+A runnable frontend, backend configuration, and documented setup command must be added before this project can be opened as a site.
+
 ---
 
 ## Overview
